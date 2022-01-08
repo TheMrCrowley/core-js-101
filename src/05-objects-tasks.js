@@ -111,12 +111,6 @@ function fromJSON(proto, json) {
  *  For more examples see unit tests.
  */
 
-class CssSelector {
-  constructor() {
-
-  }
-}
-
 const cssSelectorBuilder = {
   element(/* value */) {
     throw new Error('Not implemented');
